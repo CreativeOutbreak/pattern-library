@@ -1,0 +1,78 @@
+.user-tools {
+    position: fixed;
+    z-index: 10000;
+    bottom: 0;
+    right: 0;
+    padding: 3px
+12px;
+    background: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top-left-radius: 7px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    font-family: "Franklin ITC Pro Light",sans-serif;
+    color: #666;
+}
+
+.global-nav {
+    position: absolute;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    background: rgba(255,255,255,.95);
+    border-bottom: 1px solid #d8d8d8;
+    font-family: "Franklin ITC Pro Bold",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0
+24px;
+}
+
+.global-nav
+ul {
+    margin: 0
+auto;
+    line-height: 41px;
+}
+
+.global-nav
+li {
+    margin-right: 20px;
+}
+
+.global-nav .back-to-top {
+    display: none;
+}
+
+.global-nav
+a {
+    color: #222;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.global-nav li:first-child
+a {
+    display: inline-block;
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    vertical-align: top;
+    text-indent: 100%;
+    background: url(../img/logo.svg) no-repeat center;
+}
+
+.no-svg .global-nav li:first-child
+a {
+    background-image: url(http://alistapart.com/d/_repo/site_assets/img/icon_navigation-laurel.png);
+}
+
+.global-nav li.head-east-young-man {
+    margin-right: 0;
+    padding-top: 8px;
+}

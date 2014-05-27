@@ -16,7 +16,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>A List Apart Pattern Library</title>
+    <title>New Internationalist Pattern Library</title>
 
     <link rel="stylesheet" href="css/pattern-lib.css" />
     
@@ -30,13 +30,13 @@
 
         <section class="main-content">
         
-            <h1 class="xx-title">A Pattern Apart</h1>
-            <p class="xx-subtitle">A List Apart's pattern library</p>
+            <h1 class="xx-title">New Internationalist</h1>
+            <p class="xx-subtitle">Patttern Library</p>
 
             <div class="global-nav deluxe xx-nav">
                 
                 <ul class="inline-items">
-                    <li><a href="http://alistapart.com">Home</a></li>
+                    <li><a href="http://newint.org">Home</a></li>
                     <li><a href="patchwork.php">View as patchwork</a></li>
                 </ul>
                 
@@ -66,13 +66,13 @@
                                 </p>
                             </li>
                             <li class="swatch">
-                                <p class="swatch-preview" style="background-color: #2455c3;">
-                                    <span class="swatch-details"><strong>Link:</strong> #2455c3</span>
+                                <p class="swatch-preview" style="background-color: rgb(160, 60, 60);">
+                                    <span class="swatch-details"><strong>Link:</strong> rgb(160, 60, 60)</span>
                                 </p>
                             </li>
                             <li class="swatch">
-                                <p class="swatch-preview" style="background-color: #bb3825;"></span>
-                                    <span class="swatch-details"><strong>Accent:</strong> #bb3825</span>
+                                <p class="swatch-preview" style="background-color: rgb(160, 60, 60);"></span>
+                                    <span class="swatch-details"><strong>Prime Colour:</strong> #a03c3c</span>
                                 </p>
                             </li>
                             <li class="swatch">
@@ -81,8 +81,8 @@
                                 </p>
                             </li>
                             <li class="swatch">
-                                <p class="swatch-preview" style="background-color: #f0f0f0;">
-                                    <span class="swatch-details" style="color: #333;"><strong>Fill:</strong> #f0f0f0</span>
+                                <p class="swatch-preview" style="background-color: rgb(244, 243, 242);">
+                                    <span class="swatch-details" style="color: #333;"><strong>Background:</strong> #f4f3f2</span>
                                 </p>
                             </li>
                 		</ul>
@@ -95,9 +95,9 @@
         			</div>
         			<div class="pattern-preview">
         		    	<ul>
-        		    		<li style="font-family: 'Georgia Pro', Georgia, serif">Body text: Georgia Pro <small>· <a href="http://www.webtype.com/font/georgia-pro-complete-family-2/">View at Webtype</a></small></li>
-        		    		<li style="font-family: 'Georgia Pro', Georgia, serif; font-style: italic">Body text: Georgia Pro Italic</li>
-        		    		<li style="font-family: 'Georgia Pro Semibold', Georgia, serif">Bold body text: Georgia Pro Semibold</li>
+        		    		<li style="font-family: open sans">Body text: Open Sans <small>· <a href="http://www.webtype.com/font/georgia-pro-complete-family-2/">View at Webtype</a></small></li>
+        		    		<li style="font-family: open sans; font-style: italic">Body text: Open Sans Italic</li>
+        		    		<li style="font-family: open sans; font-weight: bold;">Bold body text: Georgia Pro Semibold</li>
         		    		<li style="font-family: 'Georgia Pro Cond', serif">Condensed body for mobile: Georgia Pro Condensed</li>
         		    		<li style="font-family: 'Franklin ITC Pro', sans-serif;">Sans-serif: Franklin ITC Pro · <a href="http://www.webtype.com/font/itc-franklin-family/">View at Webtype</a></li>
         		    		<li style="font-family: 'Franklin ITC Pro Bold', sans-serif;">Sans-serif Bold: Franklin ITC Pro Bold</li>

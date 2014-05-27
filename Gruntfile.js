@@ -4,7 +4,15 @@
 module.exports = function(grunt) {
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
-		concat: {
+		
+        sass: {
+            compile: {
+                files: {
+                    '_tmpl/css/default.css': '_tmpl/sass/default/default.scss'
+                }
+            }
+        },
+        concat: {
 			js_concat: {
 				src: [
 					'_tmpl/js/*.js',
@@ -113,10 +121,11 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks('grunt-contrib-copy');
 	grunt.loadNpmTasks('grunt-chmod');
 	grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-sass');
 
 	grunt.registerTask('cleanup', ['chmod:writeable', 'clean', 'chmod:readonly']);
 
 
-	grunt.registerTask('default', ['chmod:writeable', 'clean', 'concat', 'jshint', 'uglify', 'cssmin', 'copy', 'chmod:readonly']);
+	grunt.registerTask('default', ['chmod:writeable', 'clean', 'concat', 'jshint', 'uglify', 'cssmin', 'copy', 'chmod:readonly', 'sass']);
 	grunt.registerTask('watch', ['chmod:writeable', 'clean', 'concat', 'jshint', 'uglify', 'cssmin', 'copy', 'chmod:readonly']);
 };

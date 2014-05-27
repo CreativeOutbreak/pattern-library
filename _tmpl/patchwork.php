@@ -16,7 +16,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>A List Apart Pattern Library</title>
+	<title>New Internationalist Pattern Library</title>
 
 	<link rel="stylesheet" href="css/pattern-lib.css" />
 	
@@ -30,8 +30,8 @@
 
     <section class="main-content">
             
-        <h1 class="xx-title">A Pattern Apart</h1>
-        <p class="xx-subtitle">A List Apart's pattern library</p>
+        <h1 class="xx-title">New Internationalist</h1>
+        <p class="xx-subtitle">Pattern Library</p>
         
         <p class="xx-subtitle">This is the patchwork view which doesn't include the markup preview and usage examples. This view is particularly useful for device testing because it shows elements at full-width, presented on the page as they would appear on the site.</p>
 

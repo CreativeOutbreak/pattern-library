@@ -1998,11 +1998,11 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
   .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
     color: #fff;
     background-color: #469d44;
-    border-color: #3c8439; }
+    border-color: #3b8439; }
   .open .btn-success.dropdown-toggle {
     color: #fff;
     background-color: #469d44;
-    border-color: #3c8439; }
+    border-color: #3b8439; }
   .btn-success:active, .btn-success.active {
     background-image: none; }
   .open .btn-success.dropdown-toggle {
@@ -2021,11 +2021,11 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
   .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active {
     color: #fff;
     background-color: #31b2d5;
-    border-color: #269ebc; }
+    border-color: #269cbc; }
   .open .btn-info.dropdown-toggle {
     color: #fff;
     background-color: #31b2d5;
-    border-color: #269ebc; }
+    border-color: #269cbc; }
   .btn-info:active, .btn-info.active {
     background-image: none; }
   .open .btn-info.dropdown-toggle {
@@ -2067,11 +2067,11 @@ textarea.input-lg, .input-group-lg > textarea.form-control, .input-group-lg > te
   .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active {
     color: #fff;
     background-color: #c92e2c;
-    border-color: #ac2725; }
+    border-color: #ac2525; }
   .open .btn-danger.dropdown-toggle {
     color: #fff;
     background-color: #c92e2c;
-    border-color: #ac2725; }
+    border-color: #ac2525; }
   .btn-danger:active, .btn-danger.active {
     background-image: none; }
   .open .btn-danger.dropdown-toggle {

@@ -31,7 +31,7 @@
         <section class="main-content">
         
             <h1 class="xx-title">New Internationalist</h1>
-            <p class="xx-subtitle">Patttern Library</p>
+            <p class="xx-subtitle">Pattern Library</p>
 
             <div class="global-nav deluxe xx-nav">
                 
@@ -86,6 +86,22 @@
                                 </p>
                             </li>
                 		</ul>
+                	</div>
+                </div>
+                
+                <div class="pattern">
+                	<div class="pattern-details">
+                	    <h3 class="pattern-name">Header</h3>
+                	</div>
+                    <div class="pattern-preview">
+                        <ul>
+        		    		<li style="font-family: open sans">Header One</li>
+        		    		<li style="font-family: open sans; font-style: italic">Header Two</li>
+        		    		<li style="font-family: open sans; font-weight: bold;">Header Three</li>
+        		    		<li style="font-family: 'Franklin ITC Pro', sans-serif;">Header Four</li>
+        		    		<li style="font-family: 'Georgia Pro Cond', serif">New Internationalist</li>
+        		    		<li style="font-family: 'Franklin ITC Pro Bold', sans-serif;">New Internationalist</li>
+        		    	</ul>
                 	</div>
                 </div>
 
